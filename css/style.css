@@ -1,0 +1,124 @@
+/***
+ 1 . color  #FF9C01
+ 2. color #10E6D6
+ 3 color #FB77F7
+ 4 color #10CDD5
+
+ ******************** */
+
+ /** basic setting **** */
+
+ body{
+     margin: 0;
+     padding: 0;
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ** Top Section  ** */
+.header{
+  display: flex;
+  background-image: url('../images/header-bg.png');
+  background-size: cover;
+  width: 100%;
+ margin: 0;
+ padding: 0;
+ margin-top: -20px;
+ max-height: 650px;
+}
+.top-section{
+    display: flex;
+    width: 100%;
+   max-height: 650px;
+  }
+
+.half-width{
+  
+    width: 50%;
+   
+
+}
+
+.half-with-text{
+    margin-top: 150px;
+    padding-left: 50px;
+
+}
+.half-with-text h1{
+   color:  #FF9C01
+}
+.btn {
+    width: 100px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #10CDD5;
+    border: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:  #FF9C01;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid  #10CDD5;
+}
+
+
+
+
+.half-width img{
+    width: 100%;
+  
+   overflow: hidden;
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+}
+
+.half-width img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.middle-section{
+    display: flex;
+    width: 100%;
+    background-image: url('../images/biography-bg.png');
+  
+  }
+
+  .middel img{
+      display: flex;
+      width: 100%;
+      margin-top: -200px;
+       align-items: center;
+      justify-content: center;
+  }
+
+  .half-middle-text{
+    margin-top: 200px;
+  }
+  .btn-2 {
+      margin-top: 15px;
+    width: 150px;
+    padding: 15px;
+    background-color: #10CDD5;
+    border: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color:  #FF9C01;
+    width:160px;
+    border-radius: 10px;
+    border: 3px solid  #10CDD5;
+}
