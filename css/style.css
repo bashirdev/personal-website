@@ -22,6 +22,47 @@ a{
     color: #fff;
     font-size: 20px;
 }
+li{
+    list-style: none;
+}
+
+/* nav-bar */
+
+.nav-bar {
+   display:flex;
+   flex-direction: row;
+  justify-content: space-between;
+  max-height: 200px;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  position: fixed;
+
+ }
+
+
+.nav-bar ul{
+    width: 100%; 
+    display:flex;
+    flex-direction: row;
+  margin-left: 800px;
+  margin-top: 30px;
+
+}
+
+.nav-bar ul a li{
+    padding:20px;
+    transition: all .3s ease;
+    color: darkcyan;
+   
+}
+
+.nav-bar a:hover li{
+   background-color:  #FF9C01;
+   border-radius: 5px;
+   color: #fff ; !important; 
+}
+
 
 /* ** Top Section  ** */
 .header{
@@ -43,7 +84,7 @@ a{
 .half-width{
   
     width: 50%;
-   
+    height: 700px;
 
 }
 
@@ -83,10 +124,11 @@ a{
 }
 
 .half-width img:hover{
+    margin-top: 20px;
     transform: scale(1.1);
 }
 
-
+/* middle section */
 
 
 .middle-section{
@@ -96,13 +138,29 @@ a{
   
   }
 
+  .middel{
+    width: 50%;
+    height: 700px; 
+  }
+
+
   .middel img{
       display: flex;
       width: 100%;
-      margin-top: -200px;
+      margin-top: -250px;
        align-items: center;
       justify-content: center;
+   transition: all .3s ease-in-out;
+   cursor: pointer;
   }
+
+  .middel img:hover{
+ margin-top: -270px;
+    transform: scale(1.1);
+  }
+
+
+
 
   .half-middle-text{
     margin-top: 200px;
@@ -122,3 +180,77 @@ a{
     border-radius: 10px;
     
 }
+
+
+#latest-work{
+    text-align: center;
+    z-index: 1000;
+}
+
+
+/* bottom  section */
+
+.bottom-section{
+   
+    display: flex;
+    margin:20px 15px;
+    height: 600px;
+
+}
+
+.bottom-section div{
+    display: flex;
+    
+    margin: 10px;
+ box-shadow: 0px 2px 11px 0px rgba(50, 50, 50, 0.49);
+ height: 400px;
+}
+
+/* Feedback */
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+   
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+.feedback div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+
+.leave-message{
+    background-color: #FB77F7;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #10CDD5;
+    justify-content: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
